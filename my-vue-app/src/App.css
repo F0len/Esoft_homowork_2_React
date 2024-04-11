@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  flex: 1;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.round-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  will-change: filter;
+  transition: filter 200ms;
+}
+.round-img:hover {
+  filter: drop-shadow(0 0 1em #222223aa);
+}
+.round-img.react:hover {
+  filter: drop-shadow(0 0 1em #717171);
+}
+
+
+.slider-container .slick-prev:before,
+.slider-container .slick-next:before {
+  color: black;
+}
+
